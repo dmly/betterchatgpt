@@ -30,7 +30,7 @@ export const modelOptions: ModelOptions[] = [
   // 'gpt-4-32k-0314',
 ];
 
-export const defaultModel = 'gpt-3.5-turbo';
+export const defaultModel = 'mistralai/Mixtral-8x7B-Instruct-v0.1';
 
 export const modelMaxToken = {
   'gpt-3.5-turbo': 4096,
