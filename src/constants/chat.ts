@@ -45,7 +45,7 @@ export const modelMaxToken = {
   'gpt-4-32k': 32768,
   'gpt-4-32k-0314': 32768,
   'gpt-4-32k-0613': 32768,
-  'gpt-4-1106-preview': 128000,,
+  'gpt-4-1106-preview': 128000,
   'mistralai/Mixtral-8x7B-Instruct-v0.1': 32768
 };
 
