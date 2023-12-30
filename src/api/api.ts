@@ -41,9 +41,11 @@ export const getChatCompletion = async (
     }
   }
 
+  console.log(headers);
+
   const response = await fetch(endpoint, {
     method: 'POST',
-    headers,
+    headers: headers,
     body: JSON.stringify({
       messages,
       ...config,
@@ -94,9 +96,11 @@ export const getChatCompletionStream = async (
     }
   }
 
+  console.log(headers);
+
   const response = await fetch(endpoint, {
     method: 'POST',
-    headers,
+    headers: headers,
     body: JSON.stringify({
       messages,
       ...config,
